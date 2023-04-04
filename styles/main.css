@@ -1,3 +1,58 @@
-.body {
-    font-color: #d9f0ff;
+:root {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+body {
+  background-color: #6e7e87;
+}
+
+.leadpage {
+  padding: 40vw 5vw 40vw 5vw;
+  background-image: url(../IMG_0019.jpg);
+  background-size: cover;
+  margin: 0px;
+  color: #e4fbf9e0
+/*   height: 800px;
+  width: 100%; */
+}
+
+h1 {
+  font-size: 6rem;
+  Font-style: italic;
+}
+
+.question {
+font-size: 1.2rem;
+font-weight: 150;
+font-style: italic;
+}
+. script h2 {
+  font-size: 1.8rem;
+}
+
+h4 {
+  background-color: #ffffff54;
+  padding: 2vw 10vw 2vw 10vw;
+  margin: 0px;
+;
+}
+
+.script {
+  font-style: italic;
+}
+
+.section {
+  background-color: #ffffffab;
+  padding: 50px;
+  border: 0px;
+  margin: 0px;
+
+}
+
+.name {
+ text-align: center;
+ font-weight: 700;
+  font-style: italic;
 }
