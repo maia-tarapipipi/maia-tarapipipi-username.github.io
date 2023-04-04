@@ -1,26 +1,21 @@
-:root {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  }
-
-
 body {
   background-color: #6e7e87;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .leadpage {
-  padding: 40vw 5vw 40vw 5vw;
   background-image: url(../IMG_0019.jpg);
   background-size: cover;
-  margin: 0px;
-  color: #e4fbf9e0
-/*   height: 800px;
-  width: 100%; */
-}
+  padding: 19%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  }
 
 h1 {
   font-size: 6rem;
   Font-style: italic;
+ color: #c6dbe2d1;
 }
 
 .question {
@@ -29,14 +24,14 @@ font-weight: 150;
 font-style: italic;
 }
 . script h2 {
-  font-size: 1.8rem;
+ font-size: 1.8rem;
+ color: #c6dbe2d1;
 }
 
 h4 {
   background-color: #ffffff54;
-  padding: 2vw 10vw 2vw 10vw;
-  margin: 0px;
-;
+  padding: 3vw 10vw 3vw 12vw;
+  margin: 0vw -10vw;
 }
 
 .script {
@@ -44,15 +39,23 @@ h4 {
 }
 
 .section {
-  background-color: #ffffffab;
-  padding: 50px;
+  background-color: #ffffff8a;
+/*   padding: 50px;
   border: 0px;
-  margin: 0px;
-
+  margin: 0px; */
 }
 
 .name {
  text-align: center;
  font-weight: 700;
-  font-style: italic;
+ font-style: italic;
+}
+
+h2 h3 {
+ color: #c6dbe2d1;
+}
+
+img {
+ height: 30%;
+ width: 30%;
 }
