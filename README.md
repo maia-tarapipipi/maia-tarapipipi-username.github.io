@@ -1,1 +1,1 @@
-# maia-tarapipipi-username.github.io
+# maia-tarapipipi.github.io
