@@ -132,17 +132,16 @@ p {
 }
    
    .question {
-   font-size: 2rem;
+   font-size: 1.1rem;
    font-weight: 150;
    font-style: italic;
    font-weight: bold;
    }
 
-   h6 {
-    background-color: #ffffffa3;
-    font-size: 2rem;
-    padding: 1.5%;
-  }
+h6 {
+    font-size: 1.1rem;
+    background-color: #ffffff63;
+}
 
 table td img {
   width: 80%;
