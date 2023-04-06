@@ -50,12 +50,6 @@ button {
   text-decoration: none;
  }
 
-@media (min-width: 800px) {
- margin: 5px;
- padding: 0px;
- width: 200px;
-}
-
 .nav-but {
  display: flex;
  flex-direction: row;
@@ -117,21 +111,25 @@ p {
    justify-content: space-evenly;
   }
 }
-  .name {
+
+
+.name {
     text-align: center;
     font-weight: 700;
     font-style: italic;
    }
    
-   img {
-    height: 30%;
-    width: 30%;
-   }
+ img {
+  height: 30%;
+  width: 30%;
+  display: flexbox;
+  flex-wrap: wrap;
+ }
 
-   .date {
-    font-size: 1.4rem;
-    margin-bottom: 50%;
-   }
+.date {
+   font-size: 0.6rem;
+   margin-bottom: 60%;
+}
    
    .question {
    font-size: 2rem;
@@ -144,4 +142,12 @@ p {
     background-color: #ffffffa3;
     font-size: 2rem;
     padding: 1.5%;
+  }
+
+table td img {
+  width: 80%;
+}
+
+  table tr td ul, table tr td p {
+    text-align: left;
   }
