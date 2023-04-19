@@ -1,76 +1,78 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>HTML and CSS - Postion</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="../styles/main.css" rel="stylesheet" type="text/css">
-  </head>
-    <body>
-  <header class="header" id="top">
-    <div class="nav-but">
-      <button><a href="../index.html">Home</a></button>   
-    </div>
-          <h1>HTML and CSS</h1> 
-            <h2>Differences between Relative, Absolute and Fixed Postion</h2>
-            <h3>Thursday, 6<span class="date">th</span> April 2023</h3>
-    </header>
+<head>
+  <title>HTML and CSS: Postion</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="../styles/main.css" rel="stylesheet" type="text/css">
+</head>
 
+<body>
+<header class="header" id="top">
+  <div class="nav-but">
+  <button><a href="../index.html">Home</a></button>   
+  </div>
+  <h1>HTML and CSS</h1> 
+  <h2>Differences between Relative, Absolute and Fixed Postion</h2>
+  <h3>Thursday, 6th April 2023</h3>
+</header>
+
+<div class="blog">
 <h4>Document Flow</h4>
-<p>The document flow is pivitol to understanding the relationship and differences between relative, absolute and fixed positons.</p>
-<p>A normal document flow refers to the way elements are placed within the view port of the document, usually vertically, before they've been styled with CSS </p>
-<p>the position element may style the element within to the normal flow, or may remove it from the normal flow completely</p>
-<table width=100% class="table">
-  <tr>
-    <th>Reference images</th>
-    <th>Reference Code</th>
-    <th>Position and Explaination</th>
-  </tr>
-  <tr>
-    <td><img src="../IMG_0002.jpg" alt="relative-ref"></td>
-    <td><img src="../IMG_0005.jpg" alt="relative-code"></td>
-    <td><span class="name">Relative Positon</span>
-      <ul>
-        <li>Positoned using top, bottom left and/or right</li>
-        <li>Where the element is placed relative to its <span  class="name">original</span> position within the flow</li>
-        <li>Remains within the normal flow</li>
-      </ul>
+    <p>The document flow is pivitol to understanding the relationship and differences between relative, absolute and fixed positons.</p>
+    <p>
+      A normal document flow refers to the way elements are placed within the view port of the document, usually vertically, before they've been styled with CSS.
+    </p>
+    <p>the position element may style the element within to the normal flow, or may remove it from the normal flow completely</p>
+  <table width=100% class="table">
+    <tr>
+      <th>Reference images</th>
+      <th>Reference Code</th>
+      <th>Position and Explaination</th>
+    </tr>
+    <tr>
+      <td><img src="../IMG_0002.jpg" alt="relative-ref"></td>
+      <td><img src="../IMG_0005.jpg" alt="relative-code"></td>
+      <td><span class="name">Relative Positon</span>
+        <ul>
+          <li>Positoned using top, bottom left and/or right</li>
+          <li>Where the element is placed relative to its <span  class="name">original</span> position within the flow</li>
+          <li>Remains within the normal flow</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><img src="../IMG_0003.jpg" alt="absolute-ref"></td>
+      <td><img src="../IMG_0004.jpg" alt="absolute-code"></td>
+      <td><span class="name">Absolute Positon</span>
+        <ul>
+          <li>Positoned using top, bottom left and/or right</li>
+          <li>Where the element is placed relative to its <span  class="name">parent's</span> position within the flow</li>
+          <li>The parent element <span class="name">must</span> contain a position eg. relative for the element to reference</li>
+          <li>If no parent element is specified it becomes relative to the body element</li>
+          <li>Removed from the normal flow and can overlap elements</li>
+        </ul>
     </td>
-  </tr>
-  <tr>
-    <td><img src="../IMG_0003.jpg" alt="absolute-ref"></td>
-    <td><img src="../IMG_0004.jpg" alt="absolute-code"></td>
-    <td><span class="name">Absolute Positon</span>
-      <ul>
-        <li>Positoned using top, bottom left and/or right</li>
-        <li>Where the element is placed relative to its <span  class="name">parent's</span> position within the flow</li>
-        <li>The parent element <span class="name">must</span> contain a position eg. relative for the element to reference</li>
-        <li>If no parent element is specified it becomes relative to the body element</li>
-        <li>Removed from the normal flow and can overlap elements</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td><img src="../IMG_0006.jpg" alt="fixed-ref"></td>
-    <td><img src="../IMG_0007.jpg" alt="fixed-code"></td>
-    <td><span class="name">Fixed Positon</span>
-      <ul>
-        <li>Positoned using top, bottom left and/or right</li>
-        <li>The element is <span class="name">fixed to a position within the viewport</span> meaning it will stay in the same place</li>
-        <li>Element is removed from the normal flow</li>
-      </ul>
-    </td>
-  </tr>
-  
-</table>
+    </tr>
+    <tr>
+      <td><img src="../IMG_0006.jpg" alt="fixed-ref"></td>
+      <td><img src="../IMG_0007.jpg" alt="fixed-code"></td>
+      <td><span class="name">Fixed Positon</span>
+        <ul>
+          <li>Positoned using top, bottom left and/or right</li>
+          <li>The element is <span class="name">fixed to a position within the viewport</span> meaning it will stay in the same place</li>
+          <li>Element is removed from the normal flow</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</div>
 
-    <footer >
-      <h4 id="contact-info">Contact Information</h4>
-      <p>Maia Tarapipipi, email@gmail.com, contact number</p>
-      
-      <button><a href="#top">Back to Top</a></button>
-      </footer>
- 
-  </body>
+<footer >
+  <h4 id="contact-info">Contact Information</h4>
+  <p>Maia Tarapipipi, email@gmail.com, contact number</p>
+  <button><a href="#top">Back to Top</a></button>
+</footer>
 
-  </html>
+</body>
+</html>
