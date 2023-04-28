@@ -2,48 +2,42 @@ body {
   background-color: #c3d5d7d4;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+ font-size: 1.5rem;
 }
 
-.header {
+header {
   background-image: url(../IMG_0019.jpg);
   background-size: cover;
-  padding: 16%;
+  padding: 15vw;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-h1 {
-  font-size: 8vw;
-  Font-style: italic;
+h1, h2, h3 {
   color: #d7d7d7;
   background: #00000087;
 }
 
-h2 {
- font-size: 2.5vw;
- color: #dcdcdcf0;
- background: #00000087;
-}
-h3 {
- font-size: 2vw;
- color: #d7d7d7;
- background: #00000087;
+h1 {
+  Font-style: italic;
+
 }
 
+ h4 {
+  margin: 0.5%
+ }
+   
 h5 {
-  font-size: 2rem;
   margin: 0.5%;
   font-style: italic;
  }
 
- h4 {
-  font-size: 1.8rem;
-  margin: 0.5%
- } 
+h6 {
+    background-color: #ffffff63;
+}
 
 button {
-  font-size: 1vw;
- padding: 0.8vw 1vw;
+  padding: 0.8vw 1vw;
   border: none;
   box-shadow: none;
   background: #7f909aa3;
@@ -54,13 +48,19 @@ button {
  display: flex;
  flex-direction: row;
  justify-content: space-evenly;
+ margin: -15% 0 25% 0;
 }
 
 @media (max-width: 800px) {
- .nav-but {
-  flex-direction: column;
+  button {
+/*   width: 20vw; */
+;
 
  }
+ .nav-but {
+  flex-direction: column;
+ }
+
 }
 
 button a {
@@ -69,14 +69,8 @@ button a {
  
 }
 
-button:hover {
-  background-color: #848484;
-  color: black;
-}
-
-ul, ol {
+ul {
 list-style-type: none;
-font-size: 1rem;
  padding: 0;
  margin: 0;
 }
@@ -86,17 +80,7 @@ a {
  color: black;
 }
 
-p {
- font-size: 1rem;
-}
-
-.nav-but {
- margin: -23% 0 25% 0;
- /* flex-wrap: wrap; */
-}
-
 .dropdowns {
- font-size: 1rem;
  display: inline-block;
 }
 .containter {
@@ -107,17 +91,10 @@ p {
 
 @media (max-width: 800px) {
   .containter{
-    flex-direction: column;
+   flex-direction: column;
    justify-content: space-evenly;
   }
 }
-
-
-.name {
-    text-align: center;
-    font-weight: 700;
-    font-style: italic;
-   }
    
  img {
   height: 30%;
@@ -126,18 +103,12 @@ p {
   flex-wrap: wrap;
  }
 
-   
-   .question {
+.question {
    font-size: 1.1rem;
    font-weight: 150;
    font-style: italic;
    font-weight: bold;
    }
-
-h6 {
-    font-size: 1.1rem;
-    background-color: #ffffff63;
-}
 
 table td img {
   width: 80%;
