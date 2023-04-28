@@ -74,7 +74,7 @@ button:hover {
   color: black;
 }
 
-ul {
+ul, ol {
 list-style-type: none;
 font-size: 1rem;
  padding: 0;
@@ -126,10 +126,6 @@ p {
   flex-wrap: wrap;
  }
 
-.date {
-   font-size: 0.6rem;
-   margin-bottom: 60%;
-}
    
    .question {
    font-size: 1.1rem;
